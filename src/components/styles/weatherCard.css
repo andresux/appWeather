@@ -1,0 +1,92 @@
+.weather {
+    background-color: #fffa;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.weatherTitle {
+    font-size: 2.5rem;
+}
+
+.weatherForm {
+    display: flex;
+    gap: 10px;
+}
+
+.weatherInput {
+    border-radius: 3px;
+    text-align: center;
+    padding: 3px 6px;
+}
+
+.weatherSearch {
+    padding: 0 7px;
+    border-radius: 3px;
+    background-color: rgb(51, 50, 50);
+    color: white;
+    transition: transform .25s,
+                box-shadow .25s;
+}
+
+.weatherCity {
+    font-size: 1.5rem;
+}
+
+.weatherContainer1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.weatherImg {
+    display: flex;
+    flex: 1;
+    width: 150px;
+}
+
+.weatherDiv {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.weatherClouds {
+    margin: 15px 0;
+}
+
+.weatherInfo {
+    width: 200px;
+
+}
+
+.weatherInfo li {
+    margin: 5px 0;
+}
+
+.weatherTemp {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.weatherBtn {
+    background-color: rgb(51, 50, 50);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 7px;
+    transition: transform .25s,
+                box-shadow .25s;
+}
+
+.weatherBtn:hover,
+.weatherSearch:hover {
+    transform: scale(1.1);
+    box-shadow: -2px 2px 5px black;
+    transition: transform .25s,
+                box-shadow .25s;
+}
